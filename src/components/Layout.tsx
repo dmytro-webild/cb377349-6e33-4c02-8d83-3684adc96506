@@ -28,10 +28,10 @@ export default function Layout() {
                   {
                     title: "Services",
                     items: [
-                      { label: "Landscape Design", href: "#services" },
-                      { label: "Hardscape & Softscape", href: "#services" },
-                      { label: "Lawn & Garden Care", href: "#services" },
-                      { label: "Smart Irrigation", href: "#services" },
+                      { label: "Lawn Care", href: "#services" },
+                      { label: "Property Cleanup", href: "#services" },
+                      { label: "Tree Trimming", href: "#services" },
+                      { label: "Sod Installations", href: "#services" },
                     ],
                   },
                   {
