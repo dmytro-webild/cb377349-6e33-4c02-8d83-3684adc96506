@@ -17,10 +17,8 @@ export default function HomePage() {
           <HeroOverlayTestimonial
             textAnimation="slide-up"
             tag="Professional Landscaping"
-            title="Transform Your Outdoor Space Today Today"
-            description="Transform your outdoor space with landscaping designed around your vision. From elegant gardens to custom hardscapes, we create and maintain landscapes that make your property stand out.
-
-"
+            title="Transform Your Outdoor Space"
+            description="Professional landscaping design, installation, and maintenance services. From lush gardens to stunning hardscapes, we bring your vision to life."
             primaryButton={{ text: "Get Free Estimate", href: "#contact" }}
             secondaryButton={{ text: "Our Services", href: "#services" }}
             imageSrc="https://storage.googleapis.com/webild/default/templates/landscaping/hero.jpg"
@@ -28,14 +26,14 @@ export default function HomePage() {
               {
                 name: "Sarah M.",
                 handle: "Homeowner",
-                text: "YCA Landscaping LLC completely transformed our backyard. The team was professional, creative, and delivered beyond our expectations.",
+                text: "GreenScape completely transformed our backyard. The team was professional, creative, and delivered beyond our expectations.",
                 rating: 5,
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/web-agency-2/team-2.jpg",
               },
               {
                 name: "David K.",
                 handle: "Property Manager",
-                text: "We've used YCA Landscaping LLC for all our commercial properties. Their maintenance plans keep everything looking pristine year-round.",
+                text: "We've used GreenScape for all our commercial properties. Their maintenance plans keep everything looking pristine year-round.",
                 rating: 5,
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/web-agency-2/team-1.jpg",
               },
@@ -46,10 +44,10 @@ export default function HomePage() {
         <div id="about" data-section="about">
           <AboutTestimonial
             textAnimation="slide-up"
-            tag="About YCA Landscaping LLC"
-            quote="We’ve spent years creating outdoor spaces that homeowners love coming home to. From the first design to the final detail, we’re committed to quality landscapes that last."
-            author=""
-            role=""
+            tag="About GreenScape"
+            quote="We've been transforming outdoor spaces for over 15 years — delivering designs that homeowners love and landscapes that last."
+            author="James Carter"
+            role="Lead Designer"
             videoSrc="https://storage.googleapis.com/webild/default/templates/landscaping/about-video.mp4"
           />
         </div>
@@ -58,35 +56,35 @@ export default function HomePage() {
           <FeaturesDetailedSteps
             textAnimation="slide-up"
             tag="Our Services"
-            title="What Services We Offer"
+            title="What We Do"
             description="From design to maintenance, we handle every aspect of your landscape."
             steps={[
               {
                 tag: "Design",
-                title: "Lawn Care ",
+                title: "Landscape Design",
                 subtitle: "Custom Plans",
-                description: "s your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
+                description: "We create tailored landscape designs that complement your property's architecture and your personal style.",
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-2.jpg",
               },
               {
                 tag: "Installation",
-                title: "Property Cleanup",
-                subtitle: "Cleanups",
-                description: "From messy and overgrown to clean and under control. We transform neglected properties into clean, presentable spaces that stand out.",
+                title: "Hardscape & Softscape",
+                subtitle: "Full Installation",
+                description: "From patios and walkways to gardens and trees, we handle the complete installation process.",
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-3.jpg",
               },
               {
                 tag: "Maintenance",
-                title: "Tree Trimming",
-                subtitle: "Tree Service",
-                description: "Overgrown trees can quickly take away from your property’s curb appeal. Let us trim, shape, and clean them up so your property can stand out again.",
+                title: "Lawn & Garden Care",
+                subtitle: "Ongoing Service",
+                description: "Keep your property looking pristine year-round with our professional maintenance plans.",
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-4.jpg",
               },
               {
                 tag: "Irrigation",
-                title: "Sod Installations",
-                subtitle: "Grass Management",
-                description: "Fresh sod, fresh look, fresh start. We turn empty or struggling spaces into beautiful green lawns that make your property stand out.",
+                title: "Smart Irrigation",
+                subtitle: "Water Management",
+                description: "Efficient irrigation systems that keep your landscape healthy while conserving water.",
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-5.jpg",
               },
             ]}
@@ -97,7 +95,7 @@ export default function HomePage() {
           <TeamGlassCards
             textAnimation="slide-up"
             tag=""
-            title="Why Choose YCA Landscaping LLC"
+            title="Why Choose GreenScape"
             description="What sets us apart from the rest."
             members={[
               {
@@ -149,7 +147,7 @@ export default function HomePage() {
           <TestimonialAvatarCard
             textAnimation="slide-up"
             tag="Trusted by Homeowners"
-            title="Over 500 happy clients trust YCA Landscaping LLC to transform and maintain their outdoor spaces."
+            title="Over 500 happy clients trust GreenScape to transform and maintain their outdoor spaces."
             primaryButton={{ text: "Contact Now", href: "#contact" }}
             avatars={[
               { name: "Sarah M.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-10.jpg" },
@@ -163,7 +161,7 @@ export default function HomePage() {
         <div id="faq" data-section="faq">
           <FaqTwoColumn
             textAnimation="slide-up"
-            tag=""
+            tag="FAQ"
             title="Frequently Asked Questions"
             description="Everything you need to know about our landscaping services."
             items={[
