@@ -10,7 +10,7 @@ export default function ContactSection(): React.JSX.Element {
               <ContactSplitForm
                 textAnimation="slide-up"
                 tag="Contact"
-                title="Get Your Free Estimate"
+                title="Get Your Free Estimate Today Today"
                 description="Tell us about your project and we'll get back to you within 24 hours."
                 inputs={[
                   { name: "name", type: "text", placeholder: "Full Name", required: true },
