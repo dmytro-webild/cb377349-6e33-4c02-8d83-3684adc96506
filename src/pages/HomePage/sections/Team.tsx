@@ -16,17 +16,17 @@ export default function TeamSection(): React.JSX.Element {
                   {
                     name: "James Carter",
                     role: "Lead Designer",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-11.jpg",
+                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-11.jpg?_wi=1",
                   },
                   {
                     name: "Maria Silva",
                     role: "Horticulturist",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-10.jpg",
+                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-10.jpg?_wi=1",
                   },
                   {
                     name: "Ryan Mitchell",
                     role: "Project Manager",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-9.jpg",
+                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-9.jpg?_wi=1",
                   },
                 ]}
               />
