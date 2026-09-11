@@ -46,9 +46,9 @@ export default function Layout() {
                   {
                     title: "Contact",
                     items: [
-                      { label: "(555) 123-4567", href: "tel:5551234567" },
-                      { label: "hello@greenscape.com", href: "mailto:hello@greenscape.com" },
-                      { label: "Los Angeles, CA" },
+                      { label: "(863) 513-5608", href: "tel:8635135608" },
+                      { label: "Yonathanalonso@icloud.com", href: "mailto:Yonathanalonso@icloud.com" },
+                      { label: "Lakeland, FL" },
                     ],
                   },
                 ]}
