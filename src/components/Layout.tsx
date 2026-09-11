@@ -9,7 +9,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarCentered
-                logo="GreenScape"
+                logo="YCA Landscaping LLC"
                 navItems={[
                   { name: "Services", href: "#services" },
                   { name: "About", href: "#about" },
@@ -23,7 +23,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <FooterSimple
-                brand="GreenScape"
+                brand="YCA Landscaping LLC"
                 columns={[
                   {
                     title: "Services",
@@ -52,7 +52,7 @@ export default function Layout() {
                     ],
                   },
                 ]}
-                copyright="© 2026 GreenScape Landscaping"
+                copyright="© 2026 YCA Landscaping LLC Landscaping"
                 links={[{ label: "Privacy Policy" }, { label: "Terms of Service" }]}
               />
     </StyleProvider>
