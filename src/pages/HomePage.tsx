@@ -65,7 +65,7 @@ export default function HomePage() {
                 tag: "Design",
                 title: "Lawn Care ",
                 subtitle: "Custom Plans",
-                description: "s your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
+                description: "IIs your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
                 imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-2.jpg",
               },
               {
