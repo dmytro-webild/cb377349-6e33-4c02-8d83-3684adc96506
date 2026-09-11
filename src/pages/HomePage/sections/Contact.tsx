@@ -19,7 +19,7 @@ export default function ContactSection(): React.JSX.Element {
                 ]}
                 textarea={{ name: "message", placeholder: "Tell us about your project...", rows: 4, required: true }}
                 buttonText="Send Message"
-                imageSrc="https://storage.googleapis.com/webild/default/templates/landscaping/img-2.jpg"
+                imageSrc="https://storage.googleapis.com/webild/default/templates/landscaping/img-2.jpg?_wi=1"
               />
             </div>
   );

@@ -13,10 +13,10 @@ export default function TestimonialsSection(): React.JSX.Element {
                 title="Over 500 happy clients trust YCA Landscaping LLC to transform and maintain their outdoor spaces."
                 primaryButton={{ text: "Contact Now", href: "#contact" }}
                 avatars={[
-                  { name: "Sarah M.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-10.jpg" },
-                  { name: "David K.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-11.jpg" },
-                  { name: "Emily R.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-4.jpg" },
-                  { name: "Ryan M.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-9.jpg" },
+                  { name: "Sarah M.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-10.jpg?_wi=2" },
+                  { name: "David K.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-11.jpg?_wi=2" },
+                  { name: "Emily R.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-4.jpg?_wi=2" },
+                  { name: "Ryan M.", imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-9.jpg?_wi=2" },
                 ]}
               />
             </div>
