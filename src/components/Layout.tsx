@@ -40,7 +40,6 @@ export default function Layout() {
                       { label: "About", href: "#about" },
                       { label: "Team", href: "#team" },
                       { label: "Testimonials", href: "#testimonials" },
-                      { label: "FAQ", href: "#faq" },
                     ],
                   },
                   {
