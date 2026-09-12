@@ -10,33 +10,26 @@ import HeroSection from './HomePage/sections/Hero';
 import AboutSection from './HomePage/sections/About';
 import ServicesSection from './HomePage/sections/Services';
 import WhyUsSection from './HomePage/sections/WhyUs';
-import TeamSection from './HomePage/sections/Team';
 import TestimonialsSection from './HomePage/sections/Testimonials';
 import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
 export default function HomePage(): React.JSX.Element {
   return (
-<StyleProvider heroBackground="none" siteBackground="none" buttonVariant="stagger">
-        
+    <StyleProvider heroBackground="none" siteBackground="none" buttonVariant="stagger">
+      <HeroSection />
 
-        <HeroSection />
+      <AboutSection />
 
-        <AboutSection />
+      <ServicesSection />
 
-        <ServicesSection />
+      <WhyUsSection />
 
-        <WhyUsSection />
+      <TestimonialsSection />
 
-        <TeamSection />
+      <FaqSection />
 
-        <TestimonialsSection />
-
-        <FaqSection />
-
-        <ContactSection />
-
-        
-      </StyleProvider>
+      <ContactSection />
+    </StyleProvider>
   );
 }
