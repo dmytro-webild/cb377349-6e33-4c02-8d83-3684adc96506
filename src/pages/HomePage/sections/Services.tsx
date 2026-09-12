@@ -16,7 +16,7 @@ export default function ServicesSection(): React.JSX.Element {
                   {
                     tag: "Design",
                     title: "Lawn Care ",
-                    subtitle: "Custom Plans",
+                    subtitle: "Lawn Maintenance ",
                     description: "IIs your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789232566300-uz7ds8sk.jpg",
                   },
