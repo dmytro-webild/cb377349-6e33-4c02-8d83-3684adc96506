@@ -16,7 +16,7 @@ export default function WhyUsSection(): React.JSX.Element {
                   {
                     name: "Expert Craftsmanship",
                     role: "We take pride in our craft, delivering professional landscaping with a level of detail you can see in every corner.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-6.jpg",
+                    imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789232721713-s9k9fj9w.jpg",
                   },
                   {
                     name: "Eco-Friendly Approach",
