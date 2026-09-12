@@ -18,7 +18,7 @@ export default function ServicesSection(): React.JSX.Element {
                     title: "Lawn Care ",
                     subtitle: "Custom Plans",
                     description: "IIs your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-2.jpg?_wi=2",
+                    imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789232566300-uz7ds8sk.jpg",
                   },
                   {
                     tag: "Installation",
