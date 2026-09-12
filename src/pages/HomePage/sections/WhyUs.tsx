@@ -15,18 +15,18 @@ export default function WhyUsSection(): React.JSX.Element {
                 members={[
                   {
                     name: "Expert Craftsmanship",
-                    role: "Decades of combined experience in landscape design and installation.",
+                    role: "We take pride in our craft, delivering professional landscaping with a level of detail you can see in every corner.",
                     imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-6.jpg",
                   },
                   {
                     name: "Eco-Friendly Approach",
-                    role: "Sustainable practices and native plant selections that thrive naturally.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-7.jpg",
+                    role: "We go beyond basic landscaping to deliver results that make your property stand out.",
+                    imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789231948484-rzducj4e.jpg",
                   },
                   {
                     name: "Full-Service Care",
                     role: "From initial design to ongoing maintenance, we handle everything.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-8.jpg",
+                    imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789231847821-okuvrzjv.jpg",
                   },
                 ]}
               />
