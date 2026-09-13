@@ -17,7 +17,7 @@ export default function Layout() {
                   { name: "Testimonials", href: "#testimonials" },
                   { name: "Contact", href: "#contact" },
                 ]}
-                ctaButton={{ text: "Call Now", href: "#contact" }}
+                ctaButton={{ text: "Call Now (863) 513-5608", href: "tel:8635135608" }}
               />
       <main className="flex-grow">
         <Outlet />
