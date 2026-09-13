@@ -35,8 +35,8 @@ export default function ServicesSection(): React.JSX.Element {
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789323954133-irq2w8h7.jpg",
                   },
                   {
-                    tag: "Irrigation",
-                    title: "Sod s",
+                    tag: "",
+                    title: "Sod Insallation",
                     subtitle: "Grass Management",
                     description: "Fresh sod, fresh look, fresh start. We turn empty or struggling spaces into beautiful green lawns that make your property stand out.",
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789231748024-oyah0nhq.jpg",
