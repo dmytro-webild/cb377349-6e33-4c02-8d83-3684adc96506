@@ -14,7 +14,7 @@ export default function ServicesSection(): React.JSX.Element {
                 description="From design to maintenance, we handle every aspect of your landscape."
                 steps={[
                   {
-                    tag: "Design",
+                    tag: "",
                     title: "Lawn Care ",
                     subtitle: "Lawn Maintenance ",
                     description: "IIs your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
