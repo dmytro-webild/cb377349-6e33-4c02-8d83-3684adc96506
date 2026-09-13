@@ -21,7 +21,7 @@ export default function ServicesSection(): React.JSX.Element {
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789232566300-uz7ds8sk.jpg",
                   },
                   {
-                    tag: "Installation",
+                    tag: "",
                     title: "Property Cleanup",
                     subtitle: "Cleanups",
                     description: "From messy and overgrown to clean and under control. We transform neglected properties into clean, presentable spaces that stand out.",
@@ -36,7 +36,7 @@ export default function ServicesSection(): React.JSX.Element {
                   },
                   {
                     tag: "Irrigation",
-                    title: "Sod Installations",
+                    title: "Sod s",
                     subtitle: "Grass Management",
                     description: "Fresh sod, fresh look, fresh start. We turn empty or struggling spaces into beautiful green lawns that make your property stand out.",
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789231748024-oyah0nhq.jpg",
