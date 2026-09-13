@@ -32,7 +32,7 @@ export default function ServicesSection(): React.JSX.Element {
                     title: "Tree Trimming",
                     subtitle: "Tree Service",
                     description: "Overgrown trees can quickly take away from your property’s curb appeal. Let us trim, shape, and clean them up so your property can stand out again.",
-                    imageSrc: "https://storage.googleapis.com/webild/default/templates/landscaping/img-4.jpg?_wi=1",
+                    imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789323954133-irq2w8h7.jpg",
                   },
                   {
                     tag: "Irrigation",
