@@ -16,7 +16,7 @@ export default function ServicesSection(): React.JSX.Element {
                   {
                     tag: "",
                     title: "Lawn Care ",
-                    subtitle: "Lawn Maintenance ",
+                    subtitle: "Lawn  ",
                     description: "IIs your lawn looking rough, thin, or neglected? Let us bring the green back and give your yard the fresh, healthy look it deserves.",
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789232566300-uz7ds8sk.jpg",
                   },
@@ -28,7 +28,7 @@ export default function ServicesSection(): React.JSX.Element {
                     imageSrc: "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789231698871-a3tjsnz8.png",
                   },
                   {
-                    tag: "Maintenance",
+                    tag: "",
                     title: "Tree Trimming",
                     subtitle: "Tree Service",
                     description: "Overgrown trees can quickly take away from your property’s curb appeal. Let us trim, shape, and clean them up so your property can stand out again.",
