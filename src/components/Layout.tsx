@@ -1,24 +1,27 @@
 import { Outlet } from 'react-router-dom';
-import NavbarCentered from '@/components/ui/NavbarCentered';
+import Navbar from '@/components/Navbar';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import { StyleProvider } from '@/components/ui/StyleProvider';
 import SiteBackgroundSlot from '@/components/ui/SiteBackgroundSlot';
 
 export default function Layout() {
+  const logoUrl = "https://storage.googleapis.com/webild/users/user_3JCBXteeismv9BMFxhwlNrCxP4l/uploaded-1789576546091-xxs1fl3s.png";
+
   return (
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
-      <NavbarCentered
-                logo="YCA Landscaping LLC"
-                navItems={[
-                  { name: "Services", href: "#services" },
-                  { name: "About", href: "#about" },
-                  { name: "Team", href: "#team" },
-                  { name: "Testimonials", href: "#testimonials" },
-                  { name: "Contact", href: "#contact" },
-                ]}
-                ctaButton={{ text: "Call Now (863) 513-5608", href: "tel:8635135608" }}
-              />
+      <Navbar
+        logoText="YCA Landscaping LLC"
+        logoImg={logoUrl}
+        navItems={[
+          { name: "Services", href: "#services" },
+          { name: "About", href: "#about" },
+          { name: "Team", href: "#team" },
+          { name: "Testimonials", href: "#testimonials" },
+          { name: "Contact", href: "#contact" },
+        ]}
+        ctaButton={{ text: "Call Now (863) 513-5608", href: "tel:8635135608" }}
+      />
       <main className="flex-grow">
         <Outlet />
       </main>
