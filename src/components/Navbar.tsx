@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Plus } from "lucide-react";
 import { cls } from "@/lib/utils";
 import Button from "@/components/ui/Button";
@@ -22,7 +22,6 @@ const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, on
 export default function Navbar({ logoText, logoImg, navItems, ctaButton }: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -72,6 +71,21 @@ export default function Navbar({ logoText, logoImg, navItems, ctaButton }: Navba
             </div>
           </div>
         </div>
+
+        {menuOpen && (
+          <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-accent/20 px-6 py-4 flex flex-col gap-4">
+            {navItems.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                onClick={(e) => handleNavClick(e, item.href, () => setMenuOpen(false))}
+                className="text-base text-foreground hover:opacity-70 transition-opacity"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+        )}
       </nav>
     </>
   );
