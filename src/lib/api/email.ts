@@ -49,6 +49,8 @@ const sendContactEmail = async (data: ContactEmailData): Promise<Response> => {
     body: JSON.stringify({
       message,
       fromEmail,
+      toEmail: "yonathanalonso5@gmail.com",
+      recipientEmail: "yonathanalonso5@gmail.com",
       formData: data.formData,
     }),
   });
