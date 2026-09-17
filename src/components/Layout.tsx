@@ -47,7 +47,7 @@ export default function Layout() {
                     title: "Contact",
                     items: [
                       { label: "(863) 513-5608", href: "tel:8635135608" },
-                      { label: "Yonathanalonso@icloud.com", href: "mailto:Yonathanalonso@icloud.com" },
+                      { label: "yonathanalonso5@gmail.com", href: "mailto:yonathanalonso5@gmail.com" },
                       { label: "Lakeland, FL" },
                     ],
                   },
